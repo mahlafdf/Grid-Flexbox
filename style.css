@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@100;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+        
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    padding: 10px 50px;
+    text-decoration: none;
+    
+}
+
+.wrapper{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns:repeat(auto-fit,minmax(500px, 2fr));
+    margin: 5rem;
+}
+
+.item-warpper{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+/*img & btn*/
+img{
+    max-width:300px;
+    max-height: 300px;
+}
+.btn,p{
+    width: 100%;
+    height: max-content;
+    font-size: 1.3rem;
+    margin: 5px;
+    
+}
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+} 
+
+.ft-social-list{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.ft-social-list li{
+    padding: 2rem;
+}
+
+.fab{
+    color: white;
+}
+
+.ft-main li{
+    text-align: center;
+    font-size: 1.5rem;
+    list-style:none;
+}
